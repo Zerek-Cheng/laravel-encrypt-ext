@@ -1,0 +1,30 @@
+{
+  "name": "0myun/laravel-encrypt-ext",
+  "description": "laravel-encrypt-ext",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "EventMsg",
+      "email": "admin@0myun.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "laravel/framework": "5.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lmyun\\Laravel\\encrypts\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lmyun\\Laravel\\Encrypts\\EncryptsProvider"
+      ],
+      "aliases": {
+        "Crypts": "Lmyun\\Laravel\\Encrypts\\Crypts"
+      }
+    }
+  }
+}
