@@ -9,9 +9,6 @@
     }
   ],
   "minimum-stability": "stable",
-  "require": {
-    "laravel/framework": "5.7.*"
-  },
   "autoload": {
     "psr-4": {
       "Lmyun\\Laravel\\encrypts\\": "src/"
@@ -20,7 +17,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Lmyun\\Laravel\\Encrypts\\EncryptsProvider"
+        "Lmyun\\Laravel\\Encrypts\\EncryptionServiceProvider"
       ],
       "aliases": {
         "Crypts": "Lmyun\\Laravel\\Encrypts\\Crypts"
