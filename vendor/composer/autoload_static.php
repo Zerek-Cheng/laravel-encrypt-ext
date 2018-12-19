@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitcb865cebd20101a3ab7126411293dc8e
+class ComposerStaticInit8ede8a0d5ccc8f3605a7b71e46e9f28f
 {
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
-            'Lmyun\\Laravel\\encrypts\\' => 23,
+            'Lmyun\\Laravel\\Encrypts\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Lmyun\\Laravel\\encrypts\\' => 
+        'Lmyun\\Laravel\\Encrypts\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -23,8 +23,8 @@ class ComposerStaticInitcb865cebd20101a3ab7126411293dc8e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitcb865cebd20101a3ab7126411293dc8e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitcb865cebd20101a3ab7126411293dc8e::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8ede8a0d5ccc8f3605a7b71e46e9f28f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8ede8a0d5ccc8f3605a7b71e46e9f28f::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

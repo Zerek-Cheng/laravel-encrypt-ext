@@ -11,7 +11,7 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Lmyun\\Laravel\\encrypts\\": "src/"
+      "Lmyun\\Laravel\\Encrypts\\": "src/"
     }
   },
   "extra": {

@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Lmyun\\Laravel\\encrypts\\' => array($baseDir . '/src'),
+    'Lmyun\\Laravel\\Encrypts\\' => array($baseDir . '/src'),
 );
